@@ -1,0 +1,13 @@
+DATA_PATH = 'lgg-mri-segmentation/kaggle_3m/'
+
+BACKBONE = 'resnet34'
+IMAGE_SIZE = 256
+EPOCHS_NUM = 50
+BATCH_SIZE = 8
+NUM_WORKERS = 1
+
+NUM_CLASSES = 1
+IN_CHANNELS = 3
+
+VAL_SIZE = 0.15
+TEST_SIZE = 0.1
